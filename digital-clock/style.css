@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Cabin:wght@500&family=Poppins:wght@500&display=swap');
+
+
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(img/kd3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+   
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-align: center;
+    color:#403d39;
+    font-weight: bold;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: #f5cac3;
+    opacity: .8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+.clock .text{
+    height:30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #f28482;
+    opacity: 0.8;
+}
+
+.clock #am-pm{
+    bottom:0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: #f6bd60;
+}
